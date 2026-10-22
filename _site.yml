@@ -13,6 +13,6 @@ navbar:
       href: http://github.com/EmmaEJohnston/ #put in your github username 
 output:
   html_document:
-    theme: cerulean #defines site for entire website, don't need to include in other pages
+    theme: cerulean #defines site for entire website, don't need to include in other pages. can change to other theme if you want
     
     
