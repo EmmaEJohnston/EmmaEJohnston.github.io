@@ -1,0 +1,18 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "about" #case sensitive
+      href: about.html
+    - text: "plots"
+      href: plots.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<you@youremail.com> #put in your email address 
+    - icon: fa-github fa-lg
+      href: http://github.com/EmmaEJohnston/ #put in your github username 
+output:
+  html_document:
+    theme: cerulean #defines site for entire website, don't need to include in other pages
+    
+    

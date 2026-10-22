@@ -1,0 +1,20 @@
+---
+title: "index"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+# This is Emma's awesome website
+
+You can write content. Whatever you want to say to the whole world. 
+
+I learned all my data science from [P8105](https://p8105.com) 
+
+To learn about this page, go [here](about.html) 
+
+Also check out my [plots](plots.html)
+
+Have to knit all pages after adding yml to see changes in each page 
+
+Can reopen, Build tab should show up, press build website instead of knitting files one at a time 
