@@ -1,0 +1,9 @@
+---
+title: "about"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+This was an accident - maybe make this an extra page? 

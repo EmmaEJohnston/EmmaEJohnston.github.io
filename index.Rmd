@@ -1,8 +1,12 @@
 ---
-title: "index"
+title: "Emma Johnston"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
-This is the landing page 
+# Welcome to my website 
+
+Although my data science journey has just begun, I have many other past academic and professional [experiences](experience.html)
+
+I have been learning to make plots and flexdashboards - check them out [here](flexdashboard.html)
