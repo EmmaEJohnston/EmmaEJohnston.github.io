@@ -5,15 +5,23 @@ output:
     orientation: columns
     vertical_layout: fill
 ---
+To go home, click [here](index.html)
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
 ```
+
+## DO any data manipulation here 
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Scatterplot
 
 ```{r}
 
@@ -22,13 +30,13 @@ Column {data-width=650}
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Box Plot
 
 ```{r}
 
 ```
 
-### Chart C
+### Bar Chart 
 
 ```{r}
 
