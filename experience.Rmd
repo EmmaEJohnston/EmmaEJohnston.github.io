@@ -8,64 +8,66 @@ output:
 
 # EDUCATION
 
-Columbia University Mailman School of Public Health, 
+### Columbia University Mailman School of Public Health, New York, NY, August 2026 - Present
 
-Wesleyan University, Middletown, CT	             					                          May 2024
+Department of Environmental Health Sciences 
+PhD Student 
+
+### Wesleyan University, Middletown, CT, May 2024 	
+
 Bachelor of Arts, Overall GPA: 4.01/4.00
 Majors: Molecular Biology & Biochemistry (Honors) and Science in Society, an interdisciplinary major examining the relationship between technology, public health and medicine, the sciences, and culture 
 Minor: Chemistry  
 
 # RESEARCH EXPERIENCE
 
-Senior Research Assistant, Tisch Multiple Sclerosis Research Center of New York, New York, NY
-July 2024 – Present
+### Senior Research Assistant, Tisch Multiple Sclerosis Research Center of New York, New York, NY, July 2024 – May 2026 
+
 •	Study the role of Epstein-Barr Virus (EBV) in the pathogenesis of multiple sclerosis (MS) using molecular biology and immunology techniques
 •	Deliver presentations at internal journal clubs and lab meetings to communicate experimental findings 
 •	Present original research at the Americas Committee for Treatment and Research in Multiple Sclerosis (ACTRIMS) Forum 2025 and at our annual patient symposium (poster presentations)
 •	Mentor and train a junior RA and summer intern in laboratory protocols and project running
 •	Engage with patients at the adjoining neurology clinic while obtaining consent for blood processing, shadowing clinicians, and participating in our patient symposium and fundraising gala 
 
-Research Assistant, Padilla-Benavides Laboratory at Wesleyan University, Middletown, CT  
-     September 2021 – May 2024
+### Research Assistant, Padilla-Benavides Laboratory at Wesleyan University, Middletown, CT, September 2021 – May 2024
+
 •	Investigated the relationship between the SWI/SNF protein complex, a chromatin remodeler, and metal responsive transcription factors in the regulation of transition metals in mammalian cells utilizing biochemistry and microbiology laboratory techniques
 •	Purified recombinant proteins for protein crystallization experiments 
 •	Analyzed and compiled laboratory data for poster presentations and publications as well as collaborated with fellow lab members on experiments and in weekly lab meetings
 •	Co-first author on a manuscript currently under review at the Journal of Biological Chemistry: “The PBAF chromatin remodeling complex contributes to metal homeostasis through Mtf1 regulation” 
-•	Authored and defended senior honors thesis on the role of mSWI/SNF in metal regulation: “Exploring the Metal Regulatory Dynamics of the mSWI/SNF Complex in Collaboration with Mtf1 in Proliferating Myoblasts” http://www.doi.org/10.14418/wes01.1.2852
+•	Authored and defended senior honors thesis on the role of mSWI/SNF in metal regulation: “Exploring the Metal Regulatory Dynamics of the mSWI/SNF Complex in Collaboration with Mtf1 in Proliferating Myoblasts” 
 
 # TEACHING EXPERIENCE
 
-Course Assistant for Applied Statistics, Wesleyan University, Middletown, CT      
-     January 2022 – May 2023
+### Course Assistant for Applied Statistics, Wesleyan University, Middletown, CT, January 2022 – May 2023
+
 •	Supported students’ mastery of statistical concepts through tutoring, weekly office hours, and collaborative feedback, as well as grading assignments and proctoring exams 
 •	Contributed to course improvement through frequent faculty meetings to integrate student feedback 
 
-
 # ADDITIONAL EXPERIENCE
 
-Research Intern, Bloomful, a start-up working with women’s healthcare accessibility, London, UK
-May 2023 – September 2023
+### Research Intern, Bloomful, a start-up working with women’s healthcare accessibility, London, UK, May 2023 – September 2023
+
 •	Compiled medical and biological research on reproductive health conditions to produce accessible health education resources 
 •	Mapped clinical trial infrastructure, CRO partnership, regulatory trends, and emerging applications of AI in diagnostics and care delivery
 •	Investigated the Femtech landscape through health demographic research to identify potential markets for women’s health interventions 
 
-Medical Office Assistant Volunteer, Pulmonology Practice of Dr. Abu-Hamda, Fairfax, VA 
-December 2022 – January 2023
+### Medical Office Assistant Volunteer, Pulmonology Practice of Dr. Abu-Hamda, Fairfax, VA, December 2022 – January 2023
+
 •	Assisted in medical office tasks, including taking vitals and medical histories as well as appointment bookings, prescription orders, and other organizational responsibilities
 •	Shadowed Dr. Abu-Hamda at both his pulmonology practice and in the ICU at Inova Fair Oaks Hospital 
 
-Peer Mentor, Wesleyan Women in Science at Wesleyan University, Middletown, CT
-October 2021 – May 2023
+### Peer Mentor, Wesleyan Women in Science at Wesleyan University, Middletown, CT, October 2021 – May 2023
+
 •	Mentored female-identifying underclassmen pursuing STEM majors by providing academic guidance, advice on joining research laboratories, and support in navigating a male-dominated field
 
 # ACCEPTED MANUSCRIPTS 
 
-1. Carulli, N., Johnston, E. E., Klein, D. C., Verdejo-Torres, O., Parikh, A., Rivera, A., Quinteros, M., Pezacki, A. T., Chang, C. J., Hainer, S.J. and Padilla-Benavides, T. 2026. The PBAF chromatin remodeling complex contributes to metal homeostasis through Mtf1 regulation. Accepted at Metallomics (awaiting publication). Preprint at: https://doi.org/10.1101/2025.04.12.648552
-*Co-first authors 
+1. Carulli, N., Johnston, E. E., Klein, D. C., Verdejo-Torres, O., Parikh, A., Rivera, A., Quinteros, M., Pezacki, A. T., Chang, C. J., Hainer, S.J. and Padilla-Benavides, T. 2026. The PBAF chromatin remodeling complex contributes to metal homeostasis through Mtf1 regulation. Metallomics, 2026, 18, mfag019. 
 
 # MANUSCRIPTS UNDER REVIEW
 
-1. Kalra, S., Sanchez, G., Stubin, A., Le, A., Bakshian, A., Ortiz Diaz, B., Meiko Mark, B., Peña, C., Parker, E., Johnston, E. E., Hsu, E., Brangham, G., Bala-Mehta, I., Perez, L. D., Milrod, M. L., Stanten, M., Nakamura, M., Hwang, P., Ptaszynska, S. M., Cander, S., Park, S., Tan, T. L., Zhou, Y., and Coolon, J. D. 2026. Environmental regulation and gene-by-environment interaction influence RAP1 activity and its impact on gene expression. Submitted to PLOS One (under review). Preprint at: https://doi.org/10.64898/2026.05.06.723246
+1. Kalra, S., Sanchez, G., Stubin, A., Le, A., Bakshian, A., Ortiz Diaz, B., Meiko Mark, B., Peña, C., Parker, E., Johnston, E. E., Hsu, E., Brangham, G., Bala-Mehta, I., Perez, L. D., Milrod, M. L., Stanten, M., Nakamura, M., Hwang, P., Ptaszynska, S. M., Cander, S., Park, S., Tan, T. L., Zhou, Y., and Coolon, J. D. 2026. Environmental regulation and gene-by-environment interaction influence RAP1 activity and its impact on gene expression. Submitted to PLOS One (under review). 
 
 # CONFERENCE ABSTRACTS
 
@@ -91,36 +93,43 @@ October 2021 – May 2023
 
 11. Fitisemanu, F.M., Almohamed, A., Johnston, E.E., Stanten, M. M., Carrazco-Carrillo, J., Novoa-Aponte, L., McCann, C., Hinbest, A., Weerasekera, R., Jiménez-González, M.L., Ortiz-Frade, L., Olson, R. and Padilla-Benavides, T. 2022. Biochemical and Structural Insights into CRIP2, a novel Cu- binding protein. Wesleyan Research in the Sciences (RIS) Summer Program. Summer 2022 Research Poster Session. Middletown, CT. 
 
-# SKILLS 
+# FELLOWSHIPS AND FUNDING
 
-Software: Excel, PowerPoint, Word, Adobe Illustrator, SPSS, Fiji, KaleidaGraph, GraphPad Prism
-Programming: R (familiar), Python (familiar)
-Laboratory: Cell and tissue culture, confocal microscopy, virus concentration and titration, DNA Extraction, RNA Extraction, cDNA synthesis, Mini-, Midi-, and Maxi- preps, human immune assays, PCR, qPCR, dPCR, fluorospot plates, ELISA, FACS, transformation, transfection, Western blots, protein isolation and BCA Assay, immunoprecipitation, invasion and migration assays, immunofluorescence, PBMC isolation, and CSF processing 
-Languages: Elementary in Spanish; reading, writing, speaking, and comprehension
+### ACTRIMS Young Investigator Educational Grant, ACTRIMS Conference 2025, West Palm Beach, FL, February 2025
+
+•	Received the Young Investigator Educational Grant for highly rated poster submission, entitled “Discordant EBV-specific immune response in Multiple Sclerosis patients treated with anti-CD20 and anti-α4 Integrin disease-modifying therapies”
+
+### McCarthy Family Foundation Social Entrepreneurship Summer Grant, Wesleyan University, Middletown, CT, May 2023 – August 2023
+
+•	Received competitive university grant to live in London and work at Bloomful, a start-up company working with women’s healthcare accessibility in the UK
+
+### 2022 College of Integrative Sciences Research Summer Program Scholarship Recipient, Wesleyan University, Middletown, CT
+
+May 2022 – August 2022
+•	Secured a university scholarship to continue my research on metal regulation in mammalian cells in the laboratory of Dr. Padilla-Benavides 
 
 # HONORS AND AWARDS
 
 Phi Beta Kappa Member, Connecticut Gamma Chapter at Wesleyan University, Middletown, CT 
 May 2024
+
 Research Assistant of the Year, Tisch Multiple Sclerosis Research Center of New York, New York, NY
 October 2025
+
 Hawk Prize for Excellence in Biochemistry, Wesleyan University, Middletown, CT 
 May 2024
+
 Molecular Biology & Biochemistry Departmental Honors, Wesleyan University, Middletown, CT
 May 2024
+
 Dean’s List, Wesleyan University, Middletown, CT 
 September 2020 – May 2024
 
-# FELLOWSHIPS AND FUNDING
+# SKILLS 
 
-ACTRIMS Young Investigator Educational Grant, ACTRIMS Conference 2025, West Palm Beach, FL
-February 2025
-•	Received the Young Investigator Educational Grant for highly rated poster submission, entitled “Discordant EBV-specific immune response in Multiple Sclerosis patients treated with anti-CD20 and anti-α4 Integrin disease-modifying therapies”
+Software: Excel, PowerPoint, Word, Adobe Illustrator, SPSS, Fiji, KaleidaGraph, GraphPad Prism
+Programming: R (familiar), Python (familiar)
 
-McCarthy Family Foundation Social Entrepreneurship Summer Grant, Wesleyan University, Middletown, CT 
-May 2023 – August 2023
-•	Received competitive university grant to live in London and work at Bloomful, a start-up company working with women’s healthcare accessibility in the UK
+Laboratory: Cell and tissue culture, confocal microscopy, virus concentration and titration, DNA Extraction, RNA Extraction, cDNA synthesis, Mini-, Midi-, and Maxi- preps, human immune assays, PCR, qPCR, dPCR, fluorospot plates, ELISA, FACS, transformation, transfection, Western blots, protein isolation and BCA Assay, immunoprecipitation, invasion and migration assays, immunofluorescence, PBMC isolation, and CSF processing 
 
-2022 College of Integrative Sciences Research Summer Program Scholarship Recipient, Wesleyan University, Middletown, CT
-May 2022 – August 2022
-•	Secured a university scholarship to continue my research on metal regulation in mammalian cells in the laboratory of Dr. Padilla-Benavides 
+Languages: Elementary in Spanish; reading, writing, speaking, and comprehension
