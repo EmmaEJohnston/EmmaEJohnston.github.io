@@ -8,7 +8,7 @@ output:
 To go home, click [here](index.html)
 
 ```{r}
-rmarkdown::render("flexdashboard.Rmd", output_format = "flexdashboard::flex_dashboard")
+# rmarkdown::render("flexdashboard.Rmd", output_format = "flexdashboard::flex_dashboard")
 ```
 
 ```{r}
@@ -55,7 +55,11 @@ rest_inspec |>
   filter(borough != "0") |> 
   mutate(borough = fct_reorder(borough, score)) |> 
   plot_ly(y = ~score, color = ~borough, type = "box", colors = "viridis") |> 
-  layout(yaxis = list(title = "Score (Lower Scores Reflect Higher Grades)"))
+  layout(
+    yaxis = list(
+      title = list(
+        text = "Score (Lower Scores Reflect Higher Grades)", 
+        font = list(size = 10))))
 ```
 
 -----------------------------------------------------------------------
@@ -71,6 +75,10 @@ rest_inspec |>
   count(borough) |>  
   mutate(borough = fct_reorder(borough, n)) |> 
   plot_ly(x = ~borough, y = ~n, type = "bar", color = ~borough, colors = "viridis") |> 
-  layout(yaxis = list(title = "Thai Restaurants with an A Grade"))
+   layout(
+    yaxis = list(
+      title = list(
+        text = "Thai Restaurants with an A Grade", 
+        font = list(size = 10))))
 ```
 
