@@ -8,6 +8,10 @@ output:
 To go home, click [here](index.html)
 
 ```{r}
+rmarkdown::render("flexdashboard.Rmd", output_format = "flexdashboard::flex_dashboard")
+```
+
+```{r}
 library(tidyverse)
 library(plotly)
 ```
