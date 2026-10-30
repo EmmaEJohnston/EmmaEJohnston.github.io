@@ -12,75 +12,53 @@ Practicing my plots
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
-data("ny_noaa")
+data("rest_inspec")
 ```
 
 ```{r}
-noaa_ny_df = 
-  ny_noaa |>  
-  separate(date, into = c("year", "month", "day"), sep = "-") |> 
-  mutate(
-    year = as.numeric(year),
-    prcp = as.numeric(prcp), 
-    snow = as.numeric(snow),
-    snwd = as.numeric(snwd), 
-    tmax = as.numeric(tmax),
-    tmin = as.numeric(tmin),
-    tmax = tmax / 10, 
-    tmin = tmin / 10, 
-    prcp = prcp / 10
-    ) |> 
-  filter(
-    !is.na(tmax), 
-    !is.na(tmin)) 
+rest_inspec = 
+    rest_inspec |> 
+    rename(borough = boro)
 ```
 
 #scatter
 
 ```{r}
-noaa_ny_df |>
-  filter(prcp > 100 | prcp < 500) |> 
-  filter(year == 2000) |> 
+rest_inspec |>
+  filter(
+    borough == "Manhattan",
+    !is.na(longitude), !is.na(latitude), !is.na(grade),
+    longitude != 0, latitude != 0) |> 
   mutate(
-    text_label = str_c("ID: ", id, "\nYear: ", year)) |>  
+    text_label = str_c("Name: ", dba, "\nGrade: ", grade)) |> 
   plot_ly(
-    x = ~tmin, y = ~tmax, type = "scatter", mode = "markers", 
-    color = ~prcp, text = ~text_label, alpha = 0.5) 
+    x = ~longitude, y = ~latitude, type = "scatter", mode = "markers", 
+    color = ~grade, text = ~text_label, alpha = 0.5)
 ```
-Improve 
+
 
 #box plot 
 
 ```{r}
-noaa_ny_df |> 
-  plot_ly(y = ~tmax, color = ~year, type = "box", colors = "viridis") 
+rest_inspec |> 
+  filter(borough != "0") |> 
+  mutate(borough = fct_reorder(borough, score)) |> 
+  plot_ly(y = ~score, color = ~borough, type = "box", colors = "viridis") 
 ```
+Lower scores earn higher grades. Manhattan has the highest median score, meaning more lower grades. 
 
-
-# Line plot  
-
-```{r}
-noaa_ny_df |> 
-  filter(snow < 1000) |> 
-  group_by(year, snow) |> 
-  summarize(
-    avg_snow = mean(snow, na.rm = TRUE)
-  ) |> 
-  ungroup() |> 
-  plot_ly(x = ~year, y = ~avg_snow, type = "scatter", mode = "lines", colors = "viridis")
-```
 
 # bar chart
 
 ```{r}
-noaa_ny_df |> 
-  filter(snow < 1000) |> 
-  group_by(year, snow) |> 
-  summarize(
-    avg_snow = mean(snow, na.rm = TRUE)
-  ) |> 
-  ungroup() |> 
-  plot_ly(x = ~year, y = ~avg_snow, type = "bar", color = ~year, colors = "viridis")
+rest_inspec |> 
+  filter(
+    cuisine_description == "Thai", 
+    grade == "A") |> 
+  distinct(camis, borough) |> 
+  count(borough) |>  
+  mutate(borough = fct_reorder(borough, n)) |> 
+  plot_ly(x = ~borough, y = ~n, type = "bar", color = ~borough, colors = "viridis") |> 
+  layout(yaxis = list(title = "Thai Restaurants with an A Grade"))
 ```
-maybe this is counting the number of snow entries rather than amount?
 
