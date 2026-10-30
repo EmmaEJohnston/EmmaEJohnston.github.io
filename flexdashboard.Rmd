@@ -7,56 +7,66 @@ output:
 ---
 To go home, click [here](index.html)
 
-```{r setup, include=FALSE}
-library(flexdashboard)
+```{r}
 library(tidyverse)
 library(plotly)
 ```
 
 ```{r}
 library(p8105.datasets)
-data("ny_noaa")
+data("rest_inspec")
 ```
 
 ```{r}
-noaa_ny_df = 
-  ny_noaa |>  
-  mutate(
-    prcp = as.numeric(prcp), 
-    snow = as.numeric(snow),
-    snwd = as.numeric(snwd), 
-    tmax = as.numeric(tmax),
-    tmin = as.numeric(tmin), 
-    tmax = tmax / 10, 
-    tmin = tmin / 10, 
-    prcp = prcp / 10
-    ) |> 
-  separate(date, into = c("year", "month", "day"), sep = "-") |> 
-  filter(
-    !is.na(tmax, tmin))
+rest_inspec = 
+    rest_inspec |> 
+    rename(borough = boro)
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Scatterplot
+### Scatterplot: Map of Graded Manhattan Restaurants
 
 ```{r}
-
+rest_inspec |>
+  filter(
+    borough == "Manhattan",
+    !is.na(longitude), !is.na(latitude), !is.na(grade),
+    longitude != 0, latitude != 0) |> 
+  mutate(
+    text_label = str_c("Name: ", dba, "\nGrade: ", grade)) |> 
+  plot_ly(
+    x = ~longitude, y = ~latitude, type = "scatter", mode = "markers", 
+    color = ~grade, text = ~text_label, alpha = 0.5)
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Box Plot
+### Box Plot: Distribution of Restaurant Scores Across Boroughs 
 
 ```{r}
-
+rest_inspec |> 
+  filter(borough != "0") |> 
+  mutate(borough = fct_reorder(borough, score)) |> 
+  plot_ly(y = ~score, color = ~borough, type = "box", colors = "viridis") |> 
+  layout(yaxis = list(title = "Score (Lower Scores Reflect Higher Grades)"))
 ```
 
-### Bar Chart 
+-----------------------------------------------------------------------
+
+### Bar Chart: Thai Restaurants with an A Grade Across Boroughs 
 
 ```{r}
-
+rest_inspec |> 
+  filter(
+    cuisine_description == "Thai", 
+    grade == "A") |> 
+  distinct(camis, borough) |> 
+  count(borough) |>  
+  mutate(borough = fct_reorder(borough, n)) |> 
+  plot_ly(x = ~borough, y = ~n, type = "bar", color = ~borough, colors = "viridis") |> 
+  layout(yaxis = list(title = "Thai Restaurants with an A Grade"))
 ```
 
