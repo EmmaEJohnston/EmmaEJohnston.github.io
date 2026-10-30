@@ -9,14 +9,32 @@ To go home, click [here](index.html)
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
-
 library(tidyverse)
-library(p8105.datasets)
-
 library(plotly)
 ```
 
-## DO any data manipulation here 
+```{r}
+library(p8105.datasets)
+data("ny_noaa")
+```
+
+```{r}
+noaa_ny_df = 
+  ny_noaa |>  
+  mutate(
+    prcp = as.numeric(prcp), 
+    snow = as.numeric(snow),
+    snwd = as.numeric(snwd), 
+    tmax = as.numeric(tmax),
+    tmin = as.numeric(tmin), 
+    tmax = tmax / 10, 
+    tmin = tmin / 10, 
+    prcp = prcp / 10
+    ) |> 
+  separate(date, into = c("year", "month", "day"), sep = "-") |> 
+  filter(
+    !is.na(tmax, tmin))
+```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
